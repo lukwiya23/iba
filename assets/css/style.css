@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #002b83;
 }
 
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -1478,7 +1479,7 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #002b83;;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1491,14 +1492,14 @@ section {
   font-weight: 700;
 }
 #footer .footer-top .footer-contact h3 span {
-  color: #106eea;
+  color: white;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: white;
 }
 #footer .footer-top h4 {
   font-size: 16px;
@@ -1530,7 +1531,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: white;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1566,7 +1567,20 @@ section {
   float: right;
   text-align: center;
   font-size: 13px;
-  color: #444444;
+  color: white;
+}
+
+.ft h3{
+  font-size:33px;
+  font-weight:900;
+}
+.ft h5{
+  font-size:23px;
+  font-weight:900;
+}
+.ft ul li a{
+  font-size:18px;
+  font-weight:900;
 }
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
