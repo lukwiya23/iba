@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #106eea;
 }
 #header .logo img {
-  max-height: 100px;
+  max-height: 90px;
 }
 
 .scrolled-offset {
@@ -418,16 +418,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size:cover;
   position: relative;
 }
-#hero:before {
-  content: "";
-  /* background: rgba(206, 230, 241, 0.35); */
-  background-repeat:no-repeat;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+
 .ci .container {
   position: absolute;
   
@@ -540,7 +531,7 @@ section {
   
 }
 #register{
-  height:2050px;
+  height:1505px;
   background-color: #002b83;
 }
 
@@ -814,7 +805,7 @@ section {
   text-align: center;
 }
 .clients img {
-  max-width: 65%;
+  max-width: 80%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1338,7 +1329,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  height:1070px;
+  height:1010px;
 }
 .contact .info-box {
   color: #444444;
@@ -1617,4 +1608,8 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+  .btn-get-started:{
+    displayblock;
+  }
+  
 }
